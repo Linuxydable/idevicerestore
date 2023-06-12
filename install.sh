@@ -43,7 +43,7 @@ git clone https://github.com/libimobiledevice/usbmuxd.git /usr/src/usbmuxd && \
 cd /usr/src/usbmuxd && git checkout 1.1.1 && \
 ./autogen.sh && make && make install
 
-git clone https://github.com/Linuxydable/libirecovery.git /usr/src/libirecovery && \
+git clone https://github.com/libimobiledevice/libirecovery.git /usr/src/libirecovery && \
 cd /usr/src/libirecovery && \
 ./autogen.sh && make && make install
 
