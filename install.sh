@@ -1,10 +1,3 @@
-#!/bin/ash
-
-apk update
-
-apk add --no-cache git build-base make automake autoconf libtool pkgconf openssl curl libusb libzip readline openssl-dev curl-dev libusb-dev libzip-dev python3-dev readline-dev libxml2-dev
-
-
 git clone https://github.com/libimobiledevice/libplist.git /usr/src/libplist && cd /usr/src/libplist && ./autogen.sh && make && make install
 
 git clone https://github.com/libimobiledevice/libimobiledevice-glue.git /usr/src/libimobiledevice-glue && cd /usr/src/libimobiledevice-glue && ./autogen.sh && make && make install
