@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/ash
 
 apk update && apk add --no-cache \
 git \
